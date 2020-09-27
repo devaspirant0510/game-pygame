@@ -52,7 +52,7 @@ font_color = (58,42,57)
 #3. 뱀 클래스
 
 class Snake(object):
-    # 초기화
+    # 생성
     def __init__(self):
         self.color=snake_color
         self.position=[]
